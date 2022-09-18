@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="jsanimate.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <style type="text/css">
+        #imglk {
+            width: 40px;
+            margin-right: -80px;
+        }
+
+        #nav {
+            color: aliceblue;
+            background-color: blueviolet;
+            top: 0px;
+            position: sticky;
+        }
+
+        ul li {
+            display: inline;
+            margin: 10px;
+
+        }
+
+        ul li a {
+            color: aliceblue;
+            text-decoration: none;
+        }
+
+        #btn {
+            margin-top: 2px;
+            align-items: center;
+            
+        }
+       #form{
+           background-color: white;
+           margin-top: 70px;
+       }
+       body{
+        background-color: #EBEBEB;
+       }
+       .form-control{
+        margin:5px;
+       }
+        #hl{
+            text-align: center;
+            border-bottom:1px solid blueviolet;
+            padding: 10px;  
+        }
+        #btn2{
+            width:100%;
+            margin-top: 7px;
+            margin-bottom: 7px;
+        }
+    </style>
+    <title>Tailoree/sign in</title>
+</head>
+<body>
+    <div id="cont">
+    <div class="row" id="nav">
+        <div class="col-1">
+            <img src="images/tailor.jpg" alt="My site" id="imglk">
+        </div>
+        <div class="col">
+            <h3 id="lh3">Tailoree</h3>
+        </div>
+        <div class="offset-7 col">
+            <ul>
+                <li><button class="btn btn-info" id="btn"><a href="index.html">HOME</a></button></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row ">
+            <div class="offset-3 col-6 offset-3 rounded-start" id="form">
+                <h2 id="hl">Sign In</h2>
+                <form action="normal.html">
+                        <input type="text" class="form-control" placeholder="Username">
+                        <input type="email"  class="form-control" placeholder="Email">
+                        <input type="text"  class="form-control" placeholder="Phone number">
+                        <input type="password"  class="form-control" placeholder="Password"> 
+                        <input type="password"  class="form-control" placeholder="Confirm password"> 
+                        <textarea name="address" id="test" cols="70" rows="2" placeholder="Home address" class="form-control"></textarea>
+                        <button class="btn btn-success form-control" id="btn2" >Sign Up</button>          
+                </form>
+        </div>
+       
+    </div>
+</div>
+</body>
+</html>

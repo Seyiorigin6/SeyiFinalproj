@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="jsanimate.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <title>Document</title>
+    <style type='text/css'>
+        
+
+        #imglk {
+            width: 40px;
+            margin-right: -80px;
+        }
+        #btn {
+            margin-top: 2px;
+            align-items: center;
+            
+        }
+        #nav {
+            color: aliceblue;
+            background-color: blueviolet;
+            top: 0px;
+            position: sticky;
+        }
+
+        #cont {
+            background-image: url('images/mac.jpg');
+            height: 500px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        ul li {
+            display: inline;
+            margin: 10px;
+
+        }
+        #center {
+            color: rgb(34, 132, 245);
+            justify-content: center;
+            margin-top: 150px;
+        }
+        ul li a {
+            color: aliceblue;
+            text-decoration: none;
+        }
+        #foot{
+        background-color: #333333;
+        color:#F7F9F8;
+        height: 200px;
+       }
+       #list{
+        text-align: center;
+        padding-top: 40px;
+       }
+       #steps{
+          color:white;
+          background-color: #1A2D40;
+          padding-top: 50px!important;
+          padding-bottom: 80px !important;
+          align-items: center;
+          justify-content: center;
+          padding:20px;
+       }
+       #hj{
+        text-align: center;
+       }
+       .img-fluid{
+            width: 50px;
+       }
+       #ids{
+        background-color: #F9F8F3;
+        padding-top: 50px!important;
+        padding-bottom: 80px !important;
+        align-items: center;
+        
+       }
+       #cil{
+           background-color: white;
+           margin: 10px;
+           
+       }
+       #btnin{
+        margin-top: 15px!important;
+        margin-bottom: 15px!important;
+       margin: 45%;
+       }
+       #qil{
+          justify-content: center;
+       }
+       .form-control{
+        margin:5px;
+       }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+    <div id="cont" >
+        <div class="row" id="nav">
+            <div class="col-1">
+                <img src="images/tailor.jpg" alt="My site" id="imglk">
+            </div>
+            <div class="col ">
+                <h3 id="lh3">Tailoree</h3>
+            </div>
+            <div class="offset-3 col">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index.html">ABOUT</a> </li>
+                    <li><a href="index.html">STYLES</a> </li>
+                    <li><a href="index.html">CONTACT</a> </li>
+                </ul>
+            </div>
+        </div>
+         <div id="center" class="row" >
+                <div class="offset-3 col offset-3">
+                    <h2>Affordable Prices</h2>
+                    <p>Having trust in the people handling your things</p>
+                </div>
+            </div>
+        
+    </div>
+    <div>
+        <div class="row" id="steps">
+                <div class= " col-md-4">
+                              <h2>It's all in the measurements</h2>
+                              <p>We use advanced technology to provide you with the fit of a lifetime. It's time to leave unflattering off-the-rack sizes behind and join a personalized future. It's time you start wearing high-quality clothes made only for you.</p>
+                </div>
+                <div class=" offset-1 col-md-4">  
+                                  <h2 id="hj">STEPS</h2>       
+                            <h3>1. Browse our collection of styles</h3>
+                             <p>Browse from our gallery of styles or upload an inage of your preferred style.</p>
+                             <h3> 2. Upload your Varuos sizes</h3>
+                             <p>Create your custom size in no-time and upload to the site</p> 
+                             <h3> 3. Perfect custom made clothing gauranteed</h3>
+                             <p>Should your first garment not fit as pictured we will replace it free of charge.</p> 
+                                             
+                </div>
+        </div> 
+    </div>
+            <div id="ids">
+                    <div class="row">
+                          <div class="col">
+                                      <h2 id="hj">What distingushes us</h2>                    
+                          </div> 
+                    </div>
+                    <div class="row" id="qil">
+                        <div class=" col-md-3 rounded-start" id="cil">
+                                <img src="images/fabric.jpg" alt="Fabric" class="img-fluid">
+                                <h3>Quality Fabrics</h3>
+                                <p>You can buy fabric from our Gallery that has sellers from across the world</p>
+                         </div>
+                        <div class=" col-md-3 rounded-start" id="cil">
+                              <img src="images/delivery.jpg" alt="" class="img-fluid">
+                              <h3>Delivery</h3>
+                              <p>When your fabric is finished we would deliver it in record time</p>
+                        </div>
+                        <div class="col-md-3 rounded-start" id="cil">
+                            <img src="images/trust.jpg" alt="" class="img-fluid">
+                            <h3>Direct messaging with your tailor and live tracking</h3>
+                            <p>We provide personal messages to your tailor and track your fabrics</p>
+                        </div>
+                    </div>
+            </div>  
+            <div class="row">
+                        <div class="col">
+                                  <button id="btnin" class="btn btn-success ">Get started</button>
+                        </div>
+            </div> 
+            <div class="row" id="start">
+                  <div class=" col " id="form">
+                            <form action="">
+                                <input type="text" placeholder="Your name" required class="form-control">
+                                <input type="text" placeholder="Phone number" required class="form-control"> 
+                                <textarea name="text" id="textarea" cols="30" rows="2" placeholder="address" class="form-control"></textarea>
+                                <input type="text" placeholder="What type of style do you want" name="type" class="form-control">
+                                    <textarea name="text" id="textarea" cols="30" rows="2" placeholder="Anything else you want us to note" class="form-control"></textarea>
+                                    <label for="file" style="text-align: center;">Do you have a picture to explain better</label><br>
+                                    <input type="file" id="file" class="btn btn-info form-control">
+                                    <button id="btn" class="form-control btn btn-success">SEND</button>
+                            </form>
+                  </div>
+            </div>
+    </div>
+    <div class="row" id="foot">
+        <div class="col" id="list">
+               <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="index.html">About</a></li>
+                 <li><a href="index.html">Style</a></li>
+                 <li><a href="index.html">contact</a></li>
+               </ul>  
+               <p>copyright &copy,2022 All rights reserved-Tailoree</p>
+        </div>
+ </div>
+</div>
+<script src="jquery.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+           $('#start').hide()
+           $('#btnin').click(function(){
+               $('#start').show('slower')
+           })
+    })
+</script>
+</body>
+</html>
